@@ -16,7 +16,10 @@ class Calculator:
             return self.num1 / self.num2
     
 
-calc = Calculator(20,10)
+class cinentific(Calculator):
+    pass
+
+calc = cinentific(20,10)
 
 print(calc.add())
 print(calc.sub())
